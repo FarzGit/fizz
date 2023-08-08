@@ -1,0 +1,254 @@
+body{
+    margin: 0px;
+}
+.header{
+    background: rgb(10,11,39);
+    width: 100%;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    
+
+}
+.header-right{
+    display: flex;
+   align-items: center;
+   color: white;
+    column-gap: 28px;
+    justify-content: center;
+    padding-right: 21px;
+    
+}
+.home{
+      
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    letter-spacing: 1px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 400px;
+    cursor: pointer;
+}
+.home:hover{
+    color: orangered;
+    transition: color 0.5s ease-in;   
+}
+
+.logo{
+    
+    font-size: 18px;
+    padding-top: 25px;
+    margin-left: 0px;
+    padding-bottom: 25px;
+    cursor: pointer;
+    height: 26.4375px;
+    width: 119px;
+}
+.girl{
+    width: 100%;
+
+}
+.third-block{
+    width: 100%;
+    height: 950px;
+
+}
+.third-left{
+    width: 50%;
+    height: 950px;
+    float: left;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    z-index: 0;
+    
+}
+.third-right{
+    width: 50%;
+    height: 950px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.rotate{
+    height: 529.188px;
+    transform: rotate(1.17522rad);
+  animation: rotate 3s linear infinite;
+
+}
+.rotate-on-scroll:hover {
+    animation-play-state: paused;
+  }
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.main-text{
+    position: absolute;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "arial";
+    color: white;
+    
+}
+.text0{
+    margin-top: 0px;
+    margin-bottom: 1.70455vw;
+    color: #000;
+    font-family: "arial";
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: left;
+}
+.text1{
+    margin-top: 0px;
+    margin-bottom: 1.70455vw;
+    color: #000;
+    font-family: "arial";
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: left;
+}
+.text2{
+    margin-top: 0px;
+    margin-bottom: 1.70455vw;
+    color: #000;
+    font-family: "arial";
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.bottle{
+    width: 100%;
+}
+.footer{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    height: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.foot-text1{
+
+    margin-bottom: 0px;
+    font-family: arial;
+
+}
+.footer-text2{
+    margin-bottom: 0px;
+    font-family: arial;
+    
+    
+}
+.f-t-1{
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+.f-t-1:hover{
+    color: orangered;
+}
+.f-t-2{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.f-t-2:hover{
+    color: orangered;
+}
+.f-t-3{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.f-t-3:hover{
+    color: orangered;
+}
+.f-t-4{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.f-t-4:hover{
+    color: orangered;
+}
+
+.footer-text3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: arial;
+
+    
+}
+.icon{
+    width: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.fb{
+    width: 26px;
+    height: 26px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+.insta{
+    width: 26px;
+    height: 26px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.tw{width: 26px;
+    height: 26px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.yt{
+    width: 26px;
+    height: 26px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+}
