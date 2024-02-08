@@ -11,16 +11,13 @@ In this project, I've built a static web page to showcase my skills in HTML and 
 - Basic information about Appy Fizz drinks
 - Clean and organized code structure
 
-## Getting Started
 
-To get a copy of this project up and running on your local machine, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
 
 ## Preview
 
 Here's a screenshot of the website:
+
+
 <img src="Screenshot 2024-02-08 160411.png"></img>
 
 
